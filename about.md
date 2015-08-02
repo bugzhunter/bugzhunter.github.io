@@ -33,13 +33,19 @@ Here's an idea: why don't we take `SuperiorProject` and turn it into `**Reasonab
 
 Check out this neat program I wrote:
 
-```
-x = 0
-x = 2 + 2
-what is x
-```
+{% highlight ruby %}
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+{% endhighlight %}
 
-[Visit GitHub!](https://www.github.com)
+~~Mistaken text.~~
+
+| First Header | Second Header |
+| - | - |
+| Content from cell 1 | Content from cell 2 |
+| Content in the first column | Content in the second column |
+
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
